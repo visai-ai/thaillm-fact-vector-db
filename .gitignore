@@ -1,0 +1,13 @@
+# caches
+build
+**/__pycache__
+**/*.egg-info
+cache
+
+# env
+.venv
+.env
+
+# dev env
+notebooks
+**/*.ipynb*

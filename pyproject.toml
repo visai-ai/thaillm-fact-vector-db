@@ -1,0 +1,15 @@
+[project]
+name = "med_fact_retriever"
+version = "0.1.0"
+description = "Retrieval endpoint for medical fact retrieval tools. This endpoint will be integrated with MCP servers for Thai-LLM medical tool."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "datasets>=4.0.0",
+    "fastapi>=0.116.1",
+    "flagembedding>=1.3.5",
+    "lancedb>=0.24.2",
+    "python-dotenv>=1.1.1",
+    "uvicorn>=0.35.0",
+]
+
