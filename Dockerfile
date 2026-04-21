@@ -4,7 +4,7 @@ WORKDIR /root
 RUN apt-get update && apt-get upgrade -y && apt-get install -y git
 RUN git clone https://github.com/run-llama/llama_index.git
 
-RUN apt-get install gcc cmake build-essential -y
+RUN apt-get install gcc cmake build-essential zlib1g-dev -y
 RUN pip install sentencepiece
 
 # install llamaindex indexer, reranker, and lancedb compatibility

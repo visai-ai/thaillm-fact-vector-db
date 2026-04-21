@@ -11,3 +11,5 @@ cache
 # dev env
 notebooks
 **/*.ipynb*
+
+.DS_Store
